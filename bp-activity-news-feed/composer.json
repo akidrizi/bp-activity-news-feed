@@ -1,0 +1,16 @@
+{
+    "name": "akis/bp-activity-news-feed",
+    "authors": [
+        {
+            "name": "Akis Idrizi",
+            "email": "a.idrizi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BP_NewsFeed\\": "BP_NewsFeed/"
+        }
+    }
+}
