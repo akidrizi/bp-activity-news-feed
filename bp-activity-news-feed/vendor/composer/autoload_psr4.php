@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'BP_NewsFeed\\' => array($baseDir . '/BP_NewsFeed'),
+    'inc\\' => array($baseDir . '/BP_NewsFeed'),
 );

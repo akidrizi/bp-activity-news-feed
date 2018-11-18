@@ -1,5 +1,5 @@
 <?php
-namespace Conpress\Services\NewsFeed\Models;
+namespace BP_NewsFeed\Models;
 
 interface FeedInterface {
 

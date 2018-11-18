@@ -1,7 +1,7 @@
 <?php 
-namespace Conpress\Services\NewsFeed\Models\NewsSources;
+namespace BP_NewsFeed\Models\NewsSources;
 
-use Conpress\Services\NewsFeed\Models\Feed;
+use BP_NewsFeed\Models\Feed;
 
 class LadyLike extends Feed {
 

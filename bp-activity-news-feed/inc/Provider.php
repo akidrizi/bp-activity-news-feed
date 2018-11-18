@@ -1,9 +1,9 @@
 <?php
-namespace Conpress\Services\NewsFeed;
+namespace BP_NewsFeed;
 
 class Provider {
 
-    const CONPRESS_DIR    = 'Conpress\\Services\\NewsFeed\\Models\\NewsSources\\';
+    const NEWS_SOURCES    = 'BP_NewsFeed\\Models\\NewsSources\\';
     const DEFAULT_SOURCE  = 'Kathimerini';
     const NEWS_ACCOUNT_ID = 1;
 
@@ -23,10 +23,10 @@ class Provider {
      * @return object
      */
     private function create_news_source($news_source, $start_article) {
-        $class = self::CONPRESS_DIR.self::DEFAULT_SOURCE;
+        $class = self::NEWS_SOURCES.self::DEFAULT_SOURCE;
 
-        if (class_exists(self::CONPRESS_DIR.$news_source)){
-            $class = self::CONPRESS_DIR.$news_source;
+        if (class_exists(self::NEWS_SOURCES.$news_source)){
+            $class = self::NEWS_SOURCES.$news_source;
         }
 
         return new $class($start_article);
