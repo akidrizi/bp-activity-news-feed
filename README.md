@@ -1,5 +1,6 @@
 # BP Activity news feed
 
-This plugin handles RSS feeds from external news sources and creates social-media-like posts for Buddypress Activity Plus plugin.
+This plugin feeds the activity feed of your BuddyPress site with social-media like news automatically via RSS feed provided from the selected news sources. Requires BuddyPress and BPActivity Plus plugin to be installed.
+Currently this plugin is intended to used from Developers only via crontab.
 
-> Currently this plugin is under development and its free verion comes with the most minimal features
+> # Still under development
